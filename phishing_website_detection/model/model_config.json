@@ -1,0 +1,35 @@
+{
+  "feature_names": [
+    "url_length",
+    "num_dots",
+    "num_hyphens",
+    "has_ip_address",
+    "has_at_symbol",
+    "uses_https"
+  ],
+  "model_type": "RandomForestClassifier",
+  "dataset_file": "sample_urls.csv",
+  "used_sample_dataset": true,
+  "trained_at": "2026-10-16 19:03",
+  "label_meaning": {
+    "0": "legitimate",
+    "1": "phishing"
+  },
+  "metrics": {
+    "accuracy": 1.0,
+    "precision_phishing": 1.0,
+    "recall_phishing": 1.0,
+    "confusion_matrix": [
+      [
+        19,
+        0
+      ],
+      [
+        0,
+        17
+      ]
+    ],
+    "train_size": 107,
+    "test_size": 36
+  }
+}
